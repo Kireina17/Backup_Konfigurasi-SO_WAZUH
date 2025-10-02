@@ -1,0 +1,3 @@
+sudo sed -i 's/\r$//' /home/dahfaLabs/Backup_Konfigurasi1.sh
+sudo chmod +x /home/DahfaLabs/Backup_Konfigurasi.sh
+sudo /home/DahfaLabs/Backup_Konfigurasi.sh
