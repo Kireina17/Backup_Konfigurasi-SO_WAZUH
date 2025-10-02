@@ -1,0 +1,51 @@
+========== BACKUP REPORT ==========
+Tanggal & Jam : 2025-10-02 01:39:58
+Target        : /mnt/backup/Backup_Konfigurasi
+
+[*] Ukuran Sumber:
+1.9G    /nsm/backup
+4.6M    /nsm/wazuh/etc
+4.3M    /nsm/wazuh/ruleset
+238M    /nsm/wazuh/var/db
+1.5G    /opt/so/conf
+143M    /opt/so/saltstack
+1.2T    /nsm/wazuh
+20K     /etc/rsyslog.d
+   Total sumber : 1.2TB
+
+[*] Kondisi Disk di /mnt/backup (sebelum backup):
+    Size: 3.6T  Used: 2.3T  Avail: 1.2T  Use%: 68%
+
+[*] Backup /nsm/backup ...
+    -> /nsm/backup OK
+[*] Backup /nsm/wazuh/etc ...
+    -> /nsm/wazuh/etc OK
+[*] Backup /nsm/wazuh/ruleset ...
+    -> /nsm/wazuh/ruleset OK
+[*] Backup /nsm/wazuh/var/db ...
+    -> /nsm/wazuh/var/db OK
+[*] Backup /opt/so/conf ...
+    -> /opt/so/conf OK
+[*] Backup /opt/so/saltstack ...
+    -> /opt/so/saltstack OK
+[*] Backup /etc/rsyslog.d ...
+    -> /etc/rsyslog.d OK
+[*] Backup /nsm/wazuh (exclude logs) ...
+    -> /nsm/wazuh (exclude logs) OK
+
+[*] Ukuran Hasil Backup:
+2.4G    /mnt/backup/Backup_Konfigurasi/nsm/backup
+4.6M    /mnt/backup/Backup_Konfigurasi/nsm/wazuh/etc
+4.3M    /mnt/backup/Backup_Konfigurasi/nsm/wazuh/ruleset
+246M    /mnt/backup/Backup_Konfigurasi/nsm/wazuh/var/db
+1.5G    /mnt/backup/Backup_Konfigurasi/opt/so/conf
+143M    /mnt/backup/Backup_Konfigurasi/opt/so/saltstack
+922M    /mnt/backup/Backup_Konfigurasi/nsm/wazuh
+20K     /mnt/backup/Backup_Konfigurasi/etc/rsyslog.d
+   Total backup : 5.0GB
+
+[*] Kondisi Disk di /mnt/backup (sesudah backup):
+    Size: 3.6T  Used: 2.3T  Avail: 1.2T  Use%: 68%
+
+Hasil Backup : SUCCESS
+====================================
